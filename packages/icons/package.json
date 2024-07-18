@@ -1,0 +1,9 @@
+{
+  "name": "@turbo/icons",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.ts",
+  "dependencies": {
+    "@iconify/vue": "^4.1.2"
+  }
+}

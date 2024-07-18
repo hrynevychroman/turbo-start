@@ -1,0 +1,37 @@
+{
+  "name": "@turbo/ui",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./components/index.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "@turbo/core": "workspace:*"
+  },
+  "imports": {
+    "#*": [
+      "./*",
+      "./*.ts",
+      "./*.js",
+      "./*/index.ts",
+      "./*/index.js"
+    ]
+  },
+  "dependencies": {
+    "@turbo/eslint-config": "workspace:*",
+    "@turbo/icons": "workspace:*",
+    "@turbo/tailwind": "workspace:*",
+    "@turbo/types": "workspace:*",
+    "class-variance-authority": "^0.7.0",
+    "vaul-vue": "^0.2.0"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^2.0.7",
+    "@types/eslint": "^8.56.10",
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@turbo/core/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "./components/**/*",
+    "./components/**/*.vue",
+    "./composables/**/*",
+    "./constants/**/*",
+    "./enums/**/*",
+    "./utils/**/*",
+    "./defaults/**/*",
+    "./validation/**/*"
+  ],
+  "exclude": [
+    "./dist",
+    "./node_modules"
+  ]
+}

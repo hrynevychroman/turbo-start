@@ -1,0 +1,4 @@
+<template>
+  <UiSonner />
+  <RouterView />
+</template>
