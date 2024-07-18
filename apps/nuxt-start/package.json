@@ -11,7 +11,7 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "check-types": "vue-tsc --noEmit"
+    "check-types": "npx nuxi typecheck"
   },
   "dependencies": {
     "@turbo/core": "workspace:*",
