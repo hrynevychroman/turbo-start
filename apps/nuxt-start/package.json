@@ -1,0 +1,31 @@
+{
+  "name": "@turbo/nuxt-start",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "check-types": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@turbo/core": "workspace:*",
+    "@turbo/eslint-config": "workspace:*",
+    "@turbo/icons": "workspace:*",
+    "@turbo/postcss-config": "workspace:*",
+    "@turbo/tailwind": "workspace:*",
+    "@turbo/types": "workspace:*",
+    "@turbo/ui": "workspace:*",
+    "nuxt": "^3.12.3",
+    "vue": "catalog:"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxtjs/tailwindcss": "^6.12.1"
+  }
+}

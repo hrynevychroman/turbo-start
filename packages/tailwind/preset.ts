@@ -1,6 +1,6 @@
 import type { Config } from 'tailwindcss'
 import containerQueries from '@tailwindcss/container-queries'
-import defaultTheme from 'tailwindcss/defaultTheme'
+// import defaultTheme from 'tailwindcss/defaultTheme'
 import animate from 'tailwindcss-animate'
 
 export const screens = {
@@ -66,10 +66,10 @@ export const preset = {
       },
 
       // Typography
-      fontFamily: {
-        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
-        serif: ['Hedvig Letters Serif', ...defaultTheme.fontFamily.serif],
-      },
+      // fontFamily: {
+      //   sans: ['Poppins', ...defaultTheme.fontFamily.sans],
+      //   serif: ['Hedvig Letters Serif', ...defaultTheme.fontFamily.serif],
+      // },
 
       fontSize: {
         'xxs': ['0.625rem', 'theme("lineHeight.snug")'],

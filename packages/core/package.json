@@ -18,7 +18,8 @@
   },
   "peerDependencies": {
     "@turbo/icons": "workspace:*",
-    "@turbo/ui": "workspace:*"
+    "@turbo/ui": "workspace:*",
+    "vue": "catalog:"
   },
   "dependencies": {
     "@turbo/eslint-config": "workspace:*",

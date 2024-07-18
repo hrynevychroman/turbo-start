@@ -1,9 +1,6 @@
 import { type VariantProps, cva } from 'class-variance-authority'
 
 export { default as UiButton } from './UiButton.vue'
-export { default as UiActionButton } from './UiActionButton.vue'
-export { default as UiButtonIndicator } from './UiButtonIndicator.vue'
-export { default as UiFormButton } from './UiFormButton.vue'
 
 export const buttonVariants = cva(
   'relative inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',

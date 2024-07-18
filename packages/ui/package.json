@@ -26,7 +26,9 @@
     "@turbo/tailwind": "workspace:*",
     "@turbo/types": "workspace:*",
     "class-variance-authority": "^0.7.0",
-    "vaul-vue": "^0.2.0"
+    "vaul-vue": "^0.2.0",
+    "vue": "catalog:",
+    "vue-i18n": "9.13.1"
   },
   "devDependencies": {
     "@turbo/gen": "^2.0.7",
