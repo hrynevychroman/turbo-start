@@ -11,7 +11,7 @@
     "clean": "rm -rf node_modules && pnpm -r exec rm -rf node_modules",
     "commitlint": "commitlint --edit",
     "build:do": "pnpm install --production=false && turbo build && rm -rf node_modules && pnpm install --production --frozen-lockfile",
-    "preinstall": "npx simple-git-hooks"
+    "prepare": "simple-git-hooks"
   },
   "packageManager": "pnpm@9.5.0",
   "engines": {
