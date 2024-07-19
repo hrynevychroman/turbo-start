@@ -21,7 +21,7 @@
     "@turbo/tailwind": "workspace:*",
     "@turbo/types": "workspace:*",
     "@turbo/ui": "workspace:*",
-    "nuxt": "^3.12.3",
+    "nuxt": "catalog:",
     "vue": "catalog:"
   },
   "devDependencies": {

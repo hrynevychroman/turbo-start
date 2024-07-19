@@ -5,3 +5,4 @@ packages:
 # Define a catalog of version ranges.
 catalog:
   vue: ^3.4.32
+  nuxt: ^3.12.3
