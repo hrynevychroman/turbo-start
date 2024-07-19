@@ -1,6 +1,6 @@
 import type { FetchError } from 'ofetch'
 import { toast } from 'vue-sonner'
-import type { ErrorResponse } from '@turbo/types'
+import type { ErrorResponse } from '@gwlab/types'
 import type { Component } from 'vue'
 
 interface PromiseData<ToastData = any> {

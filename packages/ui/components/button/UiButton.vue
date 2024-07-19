@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { Icon } from '@turbo/icons'
+import { Icon } from '@gwlab/icons'
 import type { HTMLAttributes } from 'vue'
 import { Primitive, type PrimitiveProps } from 'radix-vue'
-import { cn } from '@turbo/tailwind'
+import { cn } from '@gwlab/tailwind'
 import { type ButtonVariants, buttonVariants } from '.'
 
 interface Props extends PrimitiveProps {

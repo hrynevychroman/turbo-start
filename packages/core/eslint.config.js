@@ -1,3 +1,3 @@
-import eslintConfig from '@turbo/eslint-config'
+import eslintConfig from '@gwlab/eslint-config'
 
 export default eslintConfig

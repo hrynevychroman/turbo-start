@@ -10,7 +10,7 @@ declare module 'vue' {
     HelloClient: typeof import('./src/components/HelloClient.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    UiLanguageToggle: typeof import('@turbo/ui')['UiLanguageToggle']
-    UiSonner: typeof import('@turbo/ui')['UiSonner']
+    UiLanguageToggle: typeof import('@gwlab/ui')['UiLanguageToggle']
+    UiSonner: typeof import('@gwlab/ui')['UiSonner']
   }
 }

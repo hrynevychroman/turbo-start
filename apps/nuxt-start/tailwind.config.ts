@@ -1,5 +1,5 @@
-import { preset } from '@turbo/tailwind'
-import type { Config } from '@turbo/tailwind'
+import { preset } from '@gwlab/tailwind'
+import type { Config } from '@gwlab/tailwind'
 
 export default {
   presets: [preset],
@@ -16,7 +16,7 @@ export default {
     './Error.{js,ts,vue}',
     './error.{js,ts,vue}',
     './app.config.{js,ts}',
-    './node_modules/@turbo/ui/**/*.{ts,tsx,vue}',
-    './node_modules/@turbo/core/**/*.{ts,tsx,vue}',
+    './node_modules/@gwlab/ui/**/*.{ts,tsx,vue}',
+    './node_modules/@gwlab/core/**/*.{ts,tsx,vue}',
   ],
 } satisfies Config

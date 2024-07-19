@@ -1,3 +1,3 @@
-import postcssConfig from '@turbo/postcss-config'
+import postcssConfig from '@gwlab/postcss-config'
 
 export default postcssConfig

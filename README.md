@@ -6,7 +6,7 @@ Turbo Template is a monorepo project structured using Turborepo and pnpm workspa
 
 ## Global Settings 🌐
 
-You can globally replace `@turbo/` with your own package name, for example `@my-company/`. So all packages naming will start with `@my-company/`.
+You can globally replace `@gwlab/` with your own package name, for example `@my-company/`. So all packages naming will start with `@my-company/`.
 
 ## Features 🚀
 
@@ -140,7 +140,7 @@ Added vue-start template, maybe in future we will need some Vue application. Thi
  
 - **Auto Imports** : Automatically imports commonly used modules like Vue Router, VueUse, Vue I18n, and Pinia.
  
-- **Components Auto Import** : Automatically imports components from specified directories, including custom components from `@turbo/ui` and `radix-vue`.
+- **Components Auto Import** : Automatically imports components from specified directories, including custom components from `@gwlab/ui` and `radix-vue`.
  
 - **Vue I18n Plugin** : Integrates Vue I18n for internationalization support.
  
@@ -166,7 +166,7 @@ nuxt-start is a Nuxt based application. This project includes:
  
 - **Tailwind CSS** : Global styles and configurations using PostCSS and TailwindCSS.
  
-- **UI Components Auto Import** : Automatically imports components from specified directories, including custom components from `@turbo/ui`.
+- **UI Components Auto Import** : Automatically imports components from specified directories, including custom components from `@gwlab/ui`.
 
 ## Shared Packages 📦
 All these applications infer packages from `packages/**` where the following are defined: 

@@ -1,5 +1,5 @@
 {
-  "name": "@turbo/core",
+  "name": "@gwlab/core",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -17,14 +17,14 @@
     ]
   },
   "peerDependencies": {
-    "@turbo/icons": "workspace:*",
-    "@turbo/ui": "workspace:*",
+    "@gwlab/icons": "workspace:*",
+    "@gwlab/ui": "workspace:*",
     "vue": "catalog:"
   },
   "dependencies": {
-    "@turbo/eslint-config": "workspace:*",
-    "@turbo/tailwind": "workspace:*",
-    "@turbo/types": "workspace:*"
+    "@gwlab/eslint-config": "workspace:*",
+    "@gwlab/tailwind": "workspace:*",
+    "@gwlab/types": "workspace:*"
   },
   "devDependencies": {
     "@turbo/gen": "^2.0.7",

@@ -132,25 +132,25 @@ importers:
 
   apps/nuxt-start:
     dependencies:
-      '@turbo/core':
+      '@gwlab/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@turbo/eslint-config':
+      '@gwlab/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
-      '@turbo/icons':
+      '@gwlab/icons':
         specifier: workspace:*
         version: link:../../packages/icons
-      '@turbo/postcss-config':
+      '@gwlab/postcss-config':
         specifier: workspace:*
         version: link:../../packages/postcss-config
-      '@turbo/tailwind':
+      '@gwlab/tailwind':
         specifier: workspace:*
         version: link:../../packages/tailwind
-      '@turbo/types':
+      '@gwlab/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@turbo/ui':
+      '@gwlab/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       nuxt:
@@ -169,30 +169,30 @@ importers:
 
   apps/vue-start:
     dependencies:
+      '@gwlab/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@gwlab/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@gwlab/icons':
+        specifier: workspace:*
+        version: link:../../packages/icons
+      '@gwlab/postcss-config':
+        specifier: workspace:*
+        version: link:../../packages/postcss-config
+      '@gwlab/tailwind':
+        specifier: workspace:*
+        version: link:../../packages/tailwind
+      '@gwlab/types':
+        specifier: workspace:*
+        version: link:../../packages/types
+      '@gwlab/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
       '@intlify/unplugin-vue-i18n':
         specifier: ^4.0.0
         version: 4.0.0(rollup@4.18.0)(vue-i18n@9.13.1(vue@3.4.32(typescript@5.5.3)))
-      '@turbo/core':
-        specifier: workspace:*
-        version: link:../../packages/core
-      '@turbo/eslint-config':
-        specifier: workspace:*
-        version: link:../../packages/eslint-config
-      '@turbo/icons':
-        specifier: workspace:*
-        version: link:../../packages/icons
-      '@turbo/postcss-config':
-        specifier: workspace:*
-        version: link:../../packages/postcss-config
-      '@turbo/tailwind':
-        specifier: workspace:*
-        version: link:../../packages/tailwind
-      '@turbo/types':
-        specifier: workspace:*
-        version: link:../../packages/types
-      '@turbo/ui':
-        specifier: workspace:*
-        version: link:../../packages/ui
       pinia:
         specifier: ^2.1.7
         version: 2.1.7(typescript@5.5.3)(vue@3.4.32(typescript@5.5.3))
@@ -239,19 +239,19 @@ importers:
 
   packages/core:
     dependencies:
-      '@turbo/eslint-config':
+      '@gwlab/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@turbo/icons':
+      '@gwlab/icons':
         specifier: workspace:*
         version: link:../icons
-      '@turbo/tailwind':
+      '@gwlab/tailwind':
         specifier: workspace:*
         version: link:../tailwind
-      '@turbo/types':
+      '@gwlab/types':
         specifier: workspace:*
         version: link:../types
-      '@turbo/ui':
+      '@gwlab/ui':
         specifier: workspace:*
         version: link:../ui
       vue:
@@ -330,19 +330,19 @@ importers:
 
   packages/ui:
     dependencies:
-      '@turbo/core':
+      '@gwlab/core':
         specifier: workspace:*
         version: link:../core
-      '@turbo/eslint-config':
+      '@gwlab/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@turbo/icons':
+      '@gwlab/icons':
         specifier: workspace:*
         version: link:../icons
-      '@turbo/tailwind':
+      '@gwlab/tailwind':
         specifier: workspace:*
         version: link:../tailwind
-      '@turbo/types':
+      '@gwlab/types':
         specifier: workspace:*
         version: link:../types
       class-variance-authority:

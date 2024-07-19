@@ -1,4 +1,4 @@
-import type { Auth, User } from '@turbo/types'
+import type { Auth, User } from '@gwlab/types'
 import { apiFetch } from '.'
 import type { RegisterSchema } from '@/schemas'
 

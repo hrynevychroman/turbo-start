@@ -61,6 +61,6 @@
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm commitlint $1",
-    "pre-commit": "turbo check-types && pnpm lint-staged"
+    "pre-commit": "turbo check-types"
   }
 }

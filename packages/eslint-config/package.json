@@ -1,5 +1,5 @@
 {
-  "name": "@turbo/eslint-config",
+  "name": "@gwlab/eslint-config",
   "type": "module",
   "version": "0.0.0",
   "private": true,

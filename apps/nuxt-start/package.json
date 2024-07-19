@@ -1,5 +1,5 @@
 {
-  "name": "@turbo/nuxt-start",
+  "name": "@gwlab/nuxt-start",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -14,13 +14,13 @@
     "check-types": "npx nuxi typecheck"
   },
   "dependencies": {
-    "@turbo/core": "workspace:*",
-    "@turbo/eslint-config": "workspace:*",
-    "@turbo/icons": "workspace:*",
-    "@turbo/postcss-config": "workspace:*",
-    "@turbo/tailwind": "workspace:*",
-    "@turbo/types": "workspace:*",
-    "@turbo/ui": "workspace:*",
+    "@gwlab/core": "workspace:*",
+    "@gwlab/eslint-config": "workspace:*",
+    "@gwlab/icons": "workspace:*",
+    "@gwlab/postcss-config": "workspace:*",
+    "@gwlab/tailwind": "workspace:*",
+    "@gwlab/types": "workspace:*",
+    "@gwlab/ui": "workspace:*",
     "nuxt": "catalog:",
     "vue": "catalog:"
   },

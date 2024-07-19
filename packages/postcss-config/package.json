@@ -1,5 +1,5 @@
 {
-  "name": "@turbo/postcss-config",
+  "name": "@gwlab/postcss-config",
   "version": "0.0.0",
   "description": "",
   "main": "postcss.config.js",

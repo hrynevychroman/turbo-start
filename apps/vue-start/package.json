@@ -1,5 +1,5 @@
 {
-  "name": "@turbo/vue-start",
+  "name": "@gwlab/vue-start",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -12,14 +12,14 @@
     "check-types": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@gwlab/core": "workspace:*",
+    "@gwlab/eslint-config": "workspace:*",
+    "@gwlab/icons": "workspace:*",
+    "@gwlab/postcss-config": "workspace:*",
+    "@gwlab/tailwind": "workspace:*",
+    "@gwlab/types": "workspace:*",
+    "@gwlab/ui": "workspace:*",
     "@intlify/unplugin-vue-i18n": "^4.0.0",
-    "@turbo/core": "workspace:*",
-    "@turbo/eslint-config": "workspace:*",
-    "@turbo/icons": "workspace:*",
-    "@turbo/postcss-config": "workspace:*",
-    "@turbo/tailwind": "workspace:*",
-    "@turbo/types": "workspace:*",
-    "@turbo/ui": "workspace:*",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.1",
     "vue": "catalog:",

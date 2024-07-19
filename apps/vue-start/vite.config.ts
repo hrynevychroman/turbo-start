@@ -39,10 +39,10 @@ export default defineConfig({
       dirs: ['src/components'],
       dts: true,
       resolvers: [
-        // @turbo/ui
+        // @gwlab/ui
         (componentName) => {
           if (componentName.startsWith('Ui')) {
-            return { name: componentName, from: '@turbo/ui' }
+            return { name: componentName, from: '@gwlab/ui' }
           }
           if (componentName === 'Primitive') {
             return { name: 'Primitive', from: 'radix-vue' }

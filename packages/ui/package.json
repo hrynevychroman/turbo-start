@@ -1,5 +1,5 @@
 {
-  "name": "@turbo/ui",
+  "name": "@gwlab/ui",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -9,7 +9,7 @@
     "lint:fix": "eslint . --fix"
   },
   "peerDependencies": {
-    "@turbo/core": "workspace:*"
+    "@gwlab/core": "workspace:*"
   },
   "imports": {
     "#*": [
@@ -21,10 +21,10 @@
     ]
   },
   "dependencies": {
-    "@turbo/eslint-config": "workspace:*",
-    "@turbo/icons": "workspace:*",
-    "@turbo/tailwind": "workspace:*",
-    "@turbo/types": "workspace:*",
+    "@gwlab/eslint-config": "workspace:*",
+    "@gwlab/icons": "workspace:*",
+    "@gwlab/tailwind": "workspace:*",
+    "@gwlab/types": "workspace:*",
     "class-variance-authority": "^0.7.0",
     "vaul-vue": "^0.2.0",
     "vue": "catalog:",

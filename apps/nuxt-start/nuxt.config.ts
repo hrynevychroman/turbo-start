@@ -13,12 +13,12 @@ export default defineNuxtConfig({
 
   // Tailwind CSS
   tailwindcss: {
-    cssPath: ['@turbo/core/assets/index.css', { injectPosition: 'last' }],
+    cssPath: ['@gwlab/core/assets/index.css', { injectPosition: 'last' }],
     configPath: 'tailwind.config.ts',
   },
 
   // UI Components Auto Import
   components: {
-    dirs: ['~/components/', { path: 'node_modules/@turbo/ui/components', extensions: ['vue'], pathPrefix: false }],
+    dirs: ['~/components/', { path: 'node_modules/@gwlab/ui/components', extensions: ['vue'], pathPrefix: false }],
   },
 })
