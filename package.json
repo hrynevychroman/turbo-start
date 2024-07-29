@@ -13,7 +13,7 @@
     "build:do": "pnpm install --production=false && turbo build && rm -rf node_modules && pnpm install --production --frozen-lockfile",
     "prepare": "simple-git-hooks"
   },
-  "packageManager": "pnpm@9.5.0",
+  "packageManager": "pnpm@9.6.0",
   "engines": {
     "node": ">=20.11.0",
     "pnpm": ">=9.0.0"
