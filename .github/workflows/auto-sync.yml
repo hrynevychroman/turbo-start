@@ -22,9 +22,9 @@ jobs:
         run: |
           git config --global user.email "$GIT_EMAIL"
           git config --global user.name "$GIT_USERNAME"
-          git clone https://${{ env.ORG_NAME }}:${{ secrets.PAT }}@github.com/${{ env.ORG_NAME }}/${{ env.ORIGINAL_REPO_NAME }}.git
+          git clone https://${{ vars.ORG_NAME }}:${{ env.GITHUB_TOKEN }}@github.com/${{ vars.ORG_NAME }}/${{ env.ORIGINAL_REPO_NAME }}.git
           cd ${{ env.ORIGINAL_REPO_NAME }}
-          git remote add ${{ env.ORIGINAL_REPO_NAME }} https://${{ env.GIT_USERNAME }}:${{ secrets.PAT }}@github.com/${{ env.GIT_USERNAME }}/${{ env.ORIGINAL_REPO_NAME }}.git
+          git remote add ${{ env.ORIGINAL_REPO_NAME }} https://${{ vars.GIT_USERNAME }}:${{ env.GITHUB_TOKEN }}@github.com/${{ vars.GIT_USERNAME }}/${{ env.ORIGINAL_REPO_NAME }}.git
           git remote update
           git merge ${{ env.ORIGINAL_REPO_NAME }}/main --allow-unrelated-histories
           git push origin main
