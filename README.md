@@ -1,5 +1,8 @@
 # Turbo Template
 
+##  Important ‼️
+Delete `/.github/workflows/auto-sync.yml` file, it is used to sync this repo with organization one.
+
 ## Description 📖
 
 Turbo Template is a monorepo project structured using Turborepo and pnpm workspaces. It provides a scalable and modular architecture for building applications with Vue 3 and Nuxt 3, leveraging various libraries and utilities to enhance development efficiency and maintainability.
