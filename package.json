@@ -11,7 +11,8 @@
     "clean": "rm -rf node_modules && pnpm -r exec rm -rf node_modules",
     "commitlint": "commitlint --edit",
     "build:do": "pnpm install --production=false && turbo build && rm -rf node_modules && pnpm install --production --frozen-lockfile",
-    "prepare": "simple-git-hooks"
+    "prepare": "simple-git-hooks",
+    "release": "bumpp"
   },
   "packageManager": "pnpm@9.7.1",
   "engines": {
@@ -49,6 +50,7 @@
     "@types/file-saver": "^2.0.7",
     "@types/node": "^22.3.0",
     "@vitejs/plugin-vue": "^5.1.2",
+    "bumpp": "^9.5.1",
     "defu": "^6.1.4",
     "lint-staged": "^15.2.9",
     "simple-git-hooks": "^2.11.1",
