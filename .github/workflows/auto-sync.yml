@@ -20,8 +20,8 @@ jobs:
 
       - name: Push to destination repository
         run: |
-          git config --global user.email "$GIT_EMAIL"
-          git config --global user.name "$GIT_USERNAME"
+          git config --global user.email "${{ vars.GIT_EMAIL }}"
+          git config --global user.name "${{ vars.GIT_USERNAME }}"
           git clone https://${{ vars.ORG_NAME }}:${{ env.GITHUB_TOKEN }}@github.com/${{ vars.ORG_NAME }}/${{ env.ORIGINAL_REPO_NAME }}.git
           cd ${{ env.ORIGINAL_REPO_NAME }}
           git remote add ${{ env.ORIGINAL_REPO_NAME }} https://${{ vars.GIT_USERNAME }}:${{ env.GITHUB_TOKEN }}@github.com/${{ vars.GIT_USERNAME }}/${{ env.ORIGINAL_REPO_NAME }}.git
