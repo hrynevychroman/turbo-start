@@ -5,7 +5,7 @@
   "private": true,
   "main": "eslint.config.js",
   "devDependencies": {
-    "@antfu/eslint-config": "^2.25.2",
+    "@antfu/eslint-config": "^2.27.0",
     "eslint": "^9.9.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-format": "^0.1.2",
