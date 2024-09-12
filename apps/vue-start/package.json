@@ -19,21 +19,21 @@
     "@gwlab/tailwind": "workspace:*",
     "@gwlab/types": "workspace:*",
     "@gwlab/ui": "workspace:*",
-    "@intlify/unplugin-vue-i18n": "^4.0.0",
+    "@intlify/unplugin-vue-i18n": "^5.0.0",
     "pinia": "^2.2.2",
-    "pinia-plugin-persistedstate": "^3.2.1",
+    "pinia-plugin-persistedstate": "^4.0.1",
     "vue": "catalog:",
-    "vue-i18n": "9.13.1",
-    "vue-router": "^4.4.3"
+    "vue-i18n": "10.0.1",
+    "vue-router": "^4.4.4"
   },
   "devDependencies": {
-    "@types/node": "^22.5.0",
+    "@types/node": "^22.5.4",
     "autoprefixer": "^10.4.20",
     "destr": "^2.0.3",
     "unplugin-auto-import": "^0.18.2",
     "unplugin-vue-components": "^0.27.4",
-    "unplugin-vue-router": "^0.10.7",
+    "unplugin-vue-router": "^0.10.8",
     "vue-eslint-parser": "^9.4.3",
-    "vue-tsc": "^2.0.29"
+    "vue-tsc": "^2.1.6"
   }
 }

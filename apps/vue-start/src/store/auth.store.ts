@@ -1,5 +1,5 @@
-import type { Auth, User } from '@gwlab/types'
 import { omit } from 'radash'
+import type { Auth, User } from '@gwlab/types'
 
 export const useAuthStore = defineStore('auth-store', () => {
   const user = ref<User | null>(null)
@@ -66,6 +66,6 @@ export const useAuthStore = defineStore('auth-store', () => {
 }, {
   persist: {
     storage: localStorage,
-    paths: ['user', 'token', 'refreshToken', 'expiresAt', 'refreshExpiresAt'],
+    pick: ['user', 'token', 'refreshToken', 'expiresAt', 'refreshExpiresAt'],
   },
 })

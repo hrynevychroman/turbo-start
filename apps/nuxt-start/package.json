@@ -25,7 +25,7 @@
     "vue": "catalog:"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^0.5.1",
+    "@nuxt/eslint": "^0.5.7",
     "@nuxtjs/tailwindcss": "^6.12.1"
   }
 }
